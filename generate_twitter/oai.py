@@ -10,7 +10,7 @@ import streamlit as st
 
 # Assign credentials from environment variable or streamlit secrets dict
 openai.organization = 'org-pPrOo5qPQjy7ZEG20qjsT1xE'
-openai.api_key = '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'
+openai.api_key = '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'
 # Suppress openai request/response logging
 # Handle by manually changing the respective APIRequestor methods in the openai package
 # Does not work hosted on Streamlit since all packages are re-installed by Poetry
